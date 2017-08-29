@@ -10,7 +10,7 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-composer require --prefer-dist mrserg161/yii2-airdatepicker "*"
+composer require --prefer-dist mrerg161/yii2-airdatepicker "*"
 ```
 
 or add
@@ -21,6 +21,10 @@ or add
 
 to the require section of your `composer.json` file.
 
+Demo
+-----
+
+You can refer detailed documentation and demos for [AirDatePicker](http://t1m0n.name/air-datepicker/docs/) or russian docs [AirDatePicker RU](http://t1m0n.name/air-datepicker/docs/index-ru.html) widgets on usage of the extension.
 
 Usage
 -----
@@ -28,13 +32,18 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= $form->field($model, '_date')
+<?php
+use mrserg161\airdatepicker\DatePicker;
+?>
+
+
+<?= $form->field($model, 'date')
     ->widget(
         DatePicker::class, [
         'clientOptions' => [
             'autoClose' => true,
             'timepicker' => true,
         ]
-    ]) ?>
+]) ?>
 
 ```
