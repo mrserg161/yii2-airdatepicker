@@ -1,0 +1,13 @@
+# windows thumbnail cache
+Thumbs.db
+
+# composer vendor dir
+/vendor
+
+# composer itself is not needed
+composer.lock
+composer.phar
+
+# phpunit itself is not needed, local phpunit config
+phpunit.phar
+/phpunit.xml

@@ -1,0 +1,43 @@
+{
+    "name": "mrserg161/yii2-airdatepicker",
+    "description": "Air DatePicker widget for Yii2.",
+    "type": "yii2-extension",
+    "keywords": [
+        "yii",
+        "yii2",
+        "yii 2",
+        "extension",
+        "datepicker",
+        "backend",
+        "frontend",
+        "widget"
+    ],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "mrSerg161",
+            "email": "mrSerg161@gmail.com",
+            "homepage": "https://github.com/mrserg161",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/mrserg161/yii2-airdatepicker/issues?state=open",
+        "source": "https://github.com/mrserg161/yii2-airdatepicker"
+    },
+    "require": {
+        "yiisoft/yii2": ">=2.0.9",
+        "bower-asset/air-datepicker": "^2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "mrserg161\\airdatepicker\\": ""
+        }
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
