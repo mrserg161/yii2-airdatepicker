@@ -1,6 +1,11 @@
-Air DatePicker
+[![Latest Stable Version](https://poser.pugx.org/mrserg161/yii2-airdatepicker/v/stable)](https://packagist.org/packages/mrserg161/yii2-airdatepicker)
+[![Total Downloads](https://poser.pugx.org/mrserg161/yii2-airdatepicker/downloads)](https://packagist.org/packages/mrserg161/yii2-airdatepicker)
+[![Latest Unstable Version](https://poser.pugx.org/mrserg161/yii2-airdatepicker/v/unstable)](https://packagist.org/packages/mrserg161/yii2-airdatepicker)
+[![License](https://poser.pugx.org/mrserg161/yii2-airdatepicker/license)](https://packagist.org/packages/mrserg161/yii2-airdatepicker)
+
+Yii2 Air DatePicker
 =============
-Renders a lightweight [Air DatePicker](https://github.com/t1m0n/air-datepicker) plugin.
+Renders a lightweight [Air DatePicker](https://github.com/t1m0n/air-datepicker) plugin for Yii2.
 
 Installation
 ------------

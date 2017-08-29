@@ -11,9 +11,10 @@ use yii\widgets\InputWidget;
  * Class AirDatePicker
  * Manual http://t1m0n.name/air-datepicker/docs/index-ru.html
  * GitHub https://github.com/t1m0n/air-datepicker
- * @package app\widgets\CriteriaWidget
+ * @package mrserg161\airdatepicker
  * @author Malovichko Sergey <mrSerg161@gmail.com>
  */
+
 class DatePicker extends InputWidget
 {
     public $template = '{input}';
