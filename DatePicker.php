@@ -57,10 +57,6 @@ class DatePicker extends InputWidget
             $value = $this->value;
         }
         if ($value !== null && $value !== '') {
-            // format value according to dateFormat
-            if (is_string($value)) {
-                Yii::$app->formatter->timeZone = 'UTC';
-            }
             try {
                 $value = Yii::$app->formatter->asDatetime($value, $this->dateFormat);
             } catch (InvalidParamException $e) {
