@@ -58,7 +58,9 @@ class DatePicker extends InputWidget
         }
         if ($value !== null && $value !== '') {
             try {
-                $value = Yii::$app->formatter->asDatetime($value, $this->dateFormat);
+                if (is_int($value)) {
+                    $value = Yii::$app->formatter->asDatetime($value, $this->dateFormat);
+                }
             } catch (InvalidParamException $e) {
                 // ignore exception and keep original value if it is not a valid date
             }
